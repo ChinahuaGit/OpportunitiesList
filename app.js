@@ -6,7 +6,7 @@ const filterOption = document.querySelector('.filter-opportunity');
 //events
 opportunityNameButton.addEventListener('click',addOpportunity);
 opportunityList.addEventListener('click',deleteCheckOpportunity);
-filterOption.addEventListener('click',filterOpportunity);
+filterOption.addEventListener('change',filterOpportunity);
 //functions
 function addOpportunity(event){
     //prevent form from submitting
